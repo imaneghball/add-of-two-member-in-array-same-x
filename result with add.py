@@ -10,15 +10,4 @@ def gleichResult(s1,r):
                 gibt[target]=0
 
     print(result)
-    ############################
-
-    # seen=set()
-    # output=set()
-    # for num in s1:
-    #     target=r-num
-    #     if target not in seen:
-    #         seen.add(num)
-    #     else:
-    #         output.add((target,num))
-    # print(output)
 gleichResult([1,3,2,2,4,0,2,2],4)
